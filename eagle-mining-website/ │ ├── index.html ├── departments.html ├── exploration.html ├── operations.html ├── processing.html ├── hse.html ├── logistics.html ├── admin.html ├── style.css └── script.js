@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Eagle Mining Ltd</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      color: #333;
-    }
+<header>
+  <h1>Eagle Mining Ltd</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="departments.html">Departments</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-    header {
-      background: #1b1b1b;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
+<section class="hero">
+  <h2>Responsible & Sustainable Mining</h2>
+  <p>Exploration • Operations • Processing</p>
+</section>
 
-    nav a {
-      color: #fff;
-      margin: 0 12px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+<section class="advert">
+  <h3 id="adText">Mining Equipment Advert</h3>
+</section>
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+<section class="section">
+  <h2>About Us</h2>
+  <p>Eagle Mining Ltd is a leading mining company focused on sustainable resource extraction.</p>
+</section>
 
-    .hero {
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+<footer>
+  © 2026 Eagle Mining Ltd
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
       url("https://images.unsplash.com/photo-1581091870627-3f5b94a5a2b2");
       background-size: cover;
       background-position: center;
